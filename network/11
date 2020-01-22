@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    11                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/22 20:14:18 by akelli            #+#    #+#              #
+#    Updated: 2020/01/22 20:26:26 by akelli           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Use the output of the previous command to find the name and IP address of the
+# device that makes the link between you (local network) and the outside world
+
+# HAVENT DONE
+
+192.168.30.1
+192.168.2.9

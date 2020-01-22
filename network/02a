@@ -1,0 +1,16 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2020/01/22 17:17:26 by akelli            #+#    #+#              #
+#    Updated: 2020/01/22 17:45:20 by akelli           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#Identify and display the Ethernet interface characteristics:
+# (a) Identify broadcast address
+
+ifconfig en0 | grep broadcast | awk '{print $6}'

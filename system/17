@@ -1,15 +1,15 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    17                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/12 16:40:15 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 16:40:20 by akelli           ###   ########.fr        #
+#    Created: 2020/02/12 18:03:16 by akelli            #+#    #+#              #
+#    Updated: 2020/02/12 18:19:01 by akelli           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# What command can you use to rename your system?
+# Find the command that allows you to connect via ssh on the VM.(In parallel with the graphic session)
 
-hostnamectl set-hostname 
+ssh your_username@host_ip_address

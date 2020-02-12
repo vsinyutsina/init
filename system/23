@@ -1,15 +1,16 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    23                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/12 16:40:15 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 16:40:20 by akelli           ###   ########.fr        #
+#    Created: 2020/02/12 18:47:52 by akelli            #+#    #+#              #
+#    Updated: 2020/02/12 18:50:10 by akelli           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# What command can you use to rename your system?
+# Explain how connect yourself as new user. (With graphic session and ssh session)
 
-hostnamectl set-hostname 
+With graphical session you should logout and then login as a new user.
+Wish ssh session use ssh username@user_ip command

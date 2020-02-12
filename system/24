@@ -1,15 +1,15 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    24                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/12 16:40:15 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 16:40:20 by akelli           ###   ########.fr        #
+#    Created: 2020/02/12 18:50:15 by akelli            #+#    #+#              #
+#    Updated: 2020/02/12 18:55:59 by akelli           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# What command can you use to rename your system?
+# Find the command that list all packages
 
-hostnamectl set-hostname 
+apt list --installed

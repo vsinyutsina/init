@@ -1,15 +1,15 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    12                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/12 16:40:15 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 16:40:20 by akelli           ###   ########.fr        #
+#    Created: 2020/02/12 17:35:14 by akelli            #+#    #+#              #
+#    Updated: 2020/02/12 17:38:34 by akelli           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# What command can you use to rename your system?
+# Figure out the exact size of each folder of /var in a humanly understandable way followed by the path of it.
 
-hostnamectl set-hostname 
+du -sh /var/*

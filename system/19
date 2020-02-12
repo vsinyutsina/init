@@ -1,15 +1,15 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02                                                 :+:      :+:    :+:    #
+#    19                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/12 16:40:15 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 16:40:20 by akelli           ###   ########.fr        #
+#    Created: 2020/02/12 18:23:24 by akelli            #+#    #+#              #
+#    Updated: 2020/02/12 18:36:26 by akelli           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# What command can you use to rename your system?
+# List all services which are started at boot time and name this kind of services
 
-hostnamectl set-hostname 
+systemctl list-units --type service --all

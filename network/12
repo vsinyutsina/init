@@ -6,10 +6,11 @@
 #    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/22 20:28:31 by akelli            #+#    #+#              #
-#    Updated: 2020/01/22 20:35:31 by akelli           ###   ########.fr        #
+#    Updated: 2020/02/17 18:44:53 by akelli           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # Find the IP that was assigned to you by dhcp server
 
-ifconfig en0 | grep 'inet ' | awk '{print $2}'
+ipconfig getoption en0 server_identifier
+

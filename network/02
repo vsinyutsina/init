@@ -1,15 +1,20 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    02b                                                :+:      :+:    :+:    #
+#    02                                                 :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/01/22 17:38:05 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 20:18:32 by akelli           ###   ########.fr        #
+#    Created: 2020/01/22 17:17:26 by akelli            #+#    #+#              #
+#    Updated: 2020/02/17 18:25:21 by akelli           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
+#Identify and display the Ethernet interface characteristics:
+# (a) Identify broadcast address
+
+ifconfig en0 | grep broadcast | awk '{print $6}'
+
 # (b)Identify all IP adresses which are part of the same subnet
 
-
+arp -a | grep 21-school | awk '{print $2}' | cut -d '(' -f 2 | cut -d ')' -f 1

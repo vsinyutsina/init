@@ -6,12 +6,10 @@
 #    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/02/12 19:06:44 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 19:19:19 by akelli           ###   ########.fr        #
+#    Updated: 2020/02/17 20:28:38 by akelli           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-# Write a script which delete an ACTIVE user on the VM 
+# Write a script which delete an ACTIVE user on the VM
 
-USER=$1
-pgrep -u $USER | while read PID; do sudo kill $PID; done
-sudo userdel $USER
+userdel -f $USER

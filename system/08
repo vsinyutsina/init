@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    08                                                 :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/12 17:25:47 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 17:26:09 by akelli           ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
-#What file contains the RSA keys of systems that are authorized to connect via SSH?
+# What file contains the RSA keys of systems that are authorized to connect via SSH?
 
 ~/.ssh/authorized_keys

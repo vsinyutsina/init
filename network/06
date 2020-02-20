@@ -1,16 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    06                                                 :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/01/22 19:45:11 by akelli            #+#    #+#              #
-#    Updated: 2020/02/17 20:44:48 by akelli           ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
+#Get the complete path of the file that contains the IP address of the DNS server you’re using
 
-#Get the complete path of the file that contains the IP address of the DNS server
-you’re using
-
-cat /var/run/resolv.conf
+/var/run/resolv.conf

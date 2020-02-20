@@ -1,15 +1,4 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    13                                                 :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/17 18:46:19 by akelli            #+#    #+#              #
-#    Updated: 2020/02/17 18:46:33 by akelli           ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
+# Thanks to the previous question and the reverse DNS find the name of your host
 # host ip-address
 
-net-serv.21-school.ru.
+mi-d2.21-school.ru.

@@ -1,16 +1,4 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    10                                                 :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: akelli <marvin@42.fr>                      +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/02/12 17:29:03 by akelli            #+#    #+#              #
-#    Updated: 2020/02/12 17:30:13 by akelli           ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
-#Name the command that lists the partition tables of drives?
-#Important to switch from user to root. In other case, use sudo fdisk -l
+# Name the command that lists the partition tables of drives?
+# Important to switch from user to root. In other case, use sudo fdisk -l
 
 fdisk -l
